@@ -1,0 +1,77 @@
+---
+title: Homepage - Tech no Kami
+layout: default
+---
+
+<div id="home-hero">
+      <span id="content">
+        <p id="p-big">Becoming a Tech God - one skill at at time.</p>
+        <p id="p-sub">Welcome to my blog, where I'll be sharing my experiences of the technological
+            world, while I strive to become the apex geek - A Tech God.</p>
+      </span>
+    </div>
+
+    <div id="main-body">
+      <div id="recent-posts-container">
+        <div id="posts-container">
+          <p class="section-header">
+            Latest Post
+          </p>
+          <div class="post-cards-container">
+            <div class="post-card">
+              <a class="post-title" href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a>
+              <p class="post-date">
+                {{ site.posts[0].date | date: "%b %d, %Y" }} 
+              </p>
+              <p class="post-excerpt">
+                {{ site.posts[0].description }}
+              </p>
+              <a class="post-read-more" href="{{ site.posts[0].url }}">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="posts-container">
+            <p class="section-header">
+              Recent Posts
+            </p>
+            <div class="post-cards-container">
+              {% for post in site.posts offset:1 limit:5 %}
+                <div class="post-card">
+                  <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+                  <p class="post-date">
+                    {{ post.date | date: "%b %d, %Y" }}
+                  </p>
+                  <p class="post-excerpt">
+                    {{ post.description }}
+                  </p>
+                  <a class="post-read-more" href="{{ post.url }}">Read More</a>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+      </div>
+
+      <div id="sidemenu-container">
+        <div>
+          <p class="section-header">
+            Categories
+          </p>
+          <ul>
+            {% for category in site.categories %}
+              <li>{{ category[0] }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div>
+          <p class="section-header">
+            Tags
+          </p>
+          <ul>
+            {% for tag in site.tags %}
+              <li>{{ tag }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
