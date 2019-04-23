@@ -3,7 +3,7 @@ layout: post
 title:  "Beginning Your Journey \"The Right Way\""
 date:   2018-09-04 14:37:00 +0530
 description: "A post for people who are just starting with programming, where I share tips on how they can begin."
-categories: ['Tutorials', 'Misc']
+categories: ['Tutorial', 'Misc']
 author: "Jay Mistry"
 comments: true
 ---

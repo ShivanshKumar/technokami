@@ -1,0 +1,126 @@
+#post-header {
+  height: 60vh;
+  background: linear-gradient(to bottom right, #0047AB, #42009A);
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+
+  p {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  div {
+    margin: 0px 10%;
+    position: relative;
+    bottom: 0;
+
+    #post-page-title {
+      margin: 10px 50px;
+      font-size: 2.8em;
+      color: white;
+    }
+
+    #post-page-details {
+      margin: 10px 50px;
+      font-size: 1em;
+      color: white;
+    }
+
+    #categories-list {
+      margin: 20px 50px;
+
+      span {
+        background-color: white;
+        color: #0047AB;
+        display: inline-block;
+        padding: 10px 15px;
+        margin-right: 10px;
+        border-radius: 10px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+#post-body {
+  margin: 0 10% 50px;
+  background-color: white;
+  padding: 50px;
+  box-sizing: border-box;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(65, 65, 65, 0.308);
+  line-height: 200%;
+  font-size: 1.2em;
+
+  code.highlighter-rouge {
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 0px;
+    border-radius: 5px;
+    background-color: rgb(220, 220, 220);
+    line-height: 170%;
+  }
+
+  h1 {
+    font-size: 2.4em;
+    color: #0047AB;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 2em;
+    color: #0047AB;
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: 1.6em;
+    color: #0047AB;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 1.4em;
+    color: #0047AB;
+    font-weight: 500;
+  }
+
+  h5 {
+    font-size: 1.2em;
+    color: #0047AB;
+    font-weight: 500;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgba(0, 71, 171, 0.726);
+    transition: 0.15s ease-in;
+
+    &:hover {
+      color: #0047AB;
+    }
+  }
+
+  .highlight {
+    line-height: 140%;
+    font-family: 'Hack', monospace;
+    font-size: 16px;
+    padding: 0px 10px;
+    overflow: auto;
+    border-radius: 5px;
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  .post-image {
+    max-width: 100%;
+    margin:10px auto;
+    display: block;
+    border-radius: 3px;
+    box-shadow: 0px 5px 20px grey;
+  }
+}

@@ -3,12 +3,10 @@ layout: post
 title:  "How to setup a GitHub Pages static site with custom domain?"
 date:   2019-02-03 17:10:00 +0530
 description: "A simple tutorial on setting up a static site with GitHub Pages, and also how to get a free domain name."
-categories: ['Web-Development', 'Tutorials']
+categories: ['Web-Development', 'Tutorial']
 author: "Jay Mistry"
 comments: true
 ---
-
-<img src="assets/images/gh-tut/cover.png" />
 
 ## Publishing a site on GitHub Pages
 You may want to host your static website for free, and GitHub Pages is a great platform to do so. In this tutorial, I am going to show you how you can setup your own GitHub Pages site with your custom domain name!
@@ -20,7 +18,7 @@ After that's done, create a static site where the landing page is named as `inde
 
 I have created a sample static site with a single HTML page called `index.html`, one JavaScript file and one CSS file. The directory structure followed is as the following image -
 
-<img class='post-image' src="assets/images/gh-tut/dirstruct.png" />
+<img class='post-image' src="/assets/images/gh-tut/dirstruct.png" />
 
 You can find the code for this static site [here](https://GitHub.com/rossoskull/ghpages-tutorial){:target="blank"}. We will take a look at the `CNAME` file later on when we will configure the custom domain for this GitHub pages site. 
 
@@ -36,7 +34,7 @@ $ git remote add origin <your-repository-url>
 ```
 You can get your repository URL by visiting your repository page, and in the drop down menu of "Clone or Download", as shown in following image.
 
-<img class='post-image' width="400px" src="assets/images/gh-tut/clone.png" />
+<img class='post-image' width="400px" src="/assets/images/gh-tut/clone.png" />
 
 Execute the following commands to stage your changes, and commit the changes-
 ```sh
@@ -51,7 +49,7 @@ $ git push origin master
 
 Now open your GitHub repository page, open the settings tab, and scroll down to the section which says 'GitHub Pages'. 
 
-<img class='post-image' src="assets/images/gh-tut/ghpagesopt.png" />
+<img class='post-image' src="/assets/images/gh-tut/ghpagesopt.png" />
 
 There is a drop down menu, which lets you configure the GitHub pages settings for the respective repository. There are three options:
 - master branch
@@ -65,11 +63,11 @@ It may take some time to update the DNS, but your site will be published. But ev
 ## Adding a custom domain
 Now we will see how you can add a custom domain to your GitHub Pages site. If you don't have a domain already, you can get one for free from [Freenom](https://freenom.com){:target="blank"}. I will be using a free domain from Freenom in this tutorial. After you select your domain-
 
-<img class='post-image' src="assets/images/gh-tut/freenom.png" />
+<img class='post-image' src="/assets/images/gh-tut/freenom.png" />
 
 click on the checkout button. It will take you to the following page-
 
-<img class='post-image' src="assets/images/gh-tut/freenomdns.png" />
+<img class='post-image' src="/assets/images/gh-tut/freenomdns.png" />
 
 Click on the 'Use DNS' option and it will open up a form where you can edit the A records. You have to enter the IP addresses of GitHub Pages' DNS servers. You can find the DNS IP's of GitHub Pages [here](https://help.GitHub.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider){:target="blank"}. Select any two IP addresses and paste them in the form of the checkout page. Click continue after it's done.
 

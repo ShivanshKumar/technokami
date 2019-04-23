@@ -4,6 +4,21 @@ layout: default
 
 <div id="post-header">
   <div id="post-header-textbox">
-    <p>{{ page.title }}</p>
+    <p id="post-page-title">{{ page.title }}</p>
+    {% if page.author %}
+      <p id="post-page-details">by {{ page.author }} &middot; {{ page.date | date: "%b %d, %Y" }}</p>
+    {% endif%}
+
+    {% if page.categories %}
+    <div id="categories-list">
+      {% for category in page.categories %}
+        <span>{{ category }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
+</div>
+
+<div id="post-body">
+  {{ content }}
 </div>

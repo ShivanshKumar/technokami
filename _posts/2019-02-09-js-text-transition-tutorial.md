@@ -3,18 +3,16 @@ layout: post
 title:  "Text transition using Vanilla JS and CSS tutorial"
 date:   2019-02-09 20:10:00 +0530
 description: "Learn how to create a simple and cool text transition effect using Vanilla JS and CSS"
-categories: ['Web-Development', 'Tutorials']
+categories: ['Web-Development', 'Tutorial']
 author: "Jay Mistry"
 comments: true
 ---
-
-<img src="assets/images/js-text-tut/cover.png" />
 
 Ever since I used a text effect on my portfolio website, many peers have asked me of what module did I use to acheive the effect of text transition there? But the truth is, I didn't. There was no need, as the implementation is easy itself. You can check out [my portfolio](https:rossoskull.github.io){:target="blank"} website to know what effect I am talking about.
 
 Well, in this post, we are going to learn how to create a text transition effect using vanilla JS and CSS for yourself. To get an idea about what we will be creating take a look at this
 
-<img class='post-image' src="assets/images/js-text-tut/jstexttut.gif" />
+<img class='post-image' src="/assets/images/js-text-tut/jstexttut.gif" />
 
 You can visit the online deployment of this code [here](http://rossoskull.github.io/js-changingtext-tutorial/){:target="blank"}. It is hosted on GitHub Pages. If you want to know how to host your static sites using GitHub Pages, you can visit my tutorial on [hosting your site with GitHub Pages](https://rossoskull.melearn/coding/2019/02/03/gh-pages-tutorial.html){:target="blank"}. Also, the code for this tutorial is available [here](http://github.com/rossoskull/js-changingtext-tutorial/){:target="blank"}.
 
