@@ -3,7 +3,7 @@ layout: post
 title:  "How to setup a GitHub Pages static site with custom domain?"
 date:   2019-02-03 17:10:00 +0530
 description: "A simple tutorial on setting up a static site with GitHub Pages, and also how to get a free domain name."
-categories: ['Web Development', 'Tutorials']
+categories: ['Web-Development', 'Tutorials']
 author: "Jay Mistry"
 comments: true
 ---

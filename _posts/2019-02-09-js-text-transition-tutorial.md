@@ -3,7 +3,7 @@ layout: post
 title:  "Text transition using Vanilla JS and CSS tutorial"
 date:   2019-02-09 20:10:00 +0530
 description: "Learn how to create a simple and cool text transition effect using Vanilla JS and CSS"
-categories: ['Web Development', 'Tutorials']
+categories: ['Web-Development', 'Tutorials']
 author: "Jay Mistry"
 comments: true
 ---
