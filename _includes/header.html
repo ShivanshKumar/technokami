@@ -2,8 +2,18 @@
   <img src="/assets/img/tnk_logo_white.png" alt="Tech no Kami logo">
 
   <ul>
-    <li><a class="active" href="/">Home</a></li>
-    <li><a href="/about/">About</a></li>
+    <li><a id='home-link' href="/">Home</a></li>
+    <li><a id='about-link' href="/about/">About</a></li>
     <li><a target="_blank" href="https://rossoskull.github.io">Portfolio</a></li>
   </ul>
+
+  <script type="text/javascript">
+    window.onload = function() {
+      if (window.location.pathname === '/about/') {
+        document.getElementById('about-link').classList.add('active')
+      } else if (window.location.pathname === '/') {
+        document.getElementById('home-link').classList.add('active')
+      }
+    }
+  </script>
 </header>

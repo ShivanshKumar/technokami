@@ -1,0 +1,24 @@
+#about-header {
+  height: 30vh;
+  background: linear-gradient(to bottom right, #0047AB, #42009A);
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+
+  p {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  div {
+    margin: 0px 10%;
+    position: relative;
+    bottom: 0;
+
+    #about-page-title {
+      margin: 10px 50px;
+      font-size: 2.8em;
+      color: white;
+    }
+  }
+}

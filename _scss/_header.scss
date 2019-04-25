@@ -37,7 +37,7 @@ header {
         padding: 10px 15px;
         margin-right: 10px;
         border-radius: 10px;
-        font-weight: 400;
+        font-weight: 600;
         transition: 0.15s ease-in;
 
         &:hover {
@@ -49,12 +49,20 @@ header {
 
       .active {
         background-color: rgba(255, 255, 255, 0.8);
-        color: rgb(0, 71, 171);
+        color: rgb(0, 71, 171)!important;
       }
     }
   }
 }
 
 .scrolled {
-  background-color: rgba(0, 71, 171, 0.95);
+  background-color: rgb(0, 71, 171);
+
+  ul {
+    li {
+      a {
+        color: white;
+      }
+    }
+  }
 }
