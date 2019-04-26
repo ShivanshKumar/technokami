@@ -152,7 +152,7 @@ header {
     }
   }
 
-  @media screen and (max-width: 940px) {
+  @media screen and (max-width: $medium-screen) {
     height: 60px;
 
     ul#menu-items {

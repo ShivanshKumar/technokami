@@ -7,17 +7,34 @@
   display: flex;
   flex-flow: row;
   box-shadow: 0px 0px 10px rgba(65, 65, 65, 0.308);
+
+  @media screen and (max-width: $medium-screen) {
+    margin: 30px 5%;
+    flex-flow: column;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: $small-screen) {
+    margin: 20px 2%;
+  }
 }
 
 #recent-posts-container {
   width: calc(100% - 300px);
   padding: 20px;
+
+  @media screen and (max-width: $medium-screen) {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
 }
 
 #sidemenu-container {
   padding: 20px;
   width: 300px;
   border-left: 0.5px solid rgba(0, 0, 0, 0.2);
+  height: max-content;
 
   ul {
     list-style-type: none;
@@ -28,6 +45,10 @@
       margin-bottom: 10px;
       font-size: 1.2em;
     } 
+  }
+
+  @media screen and (max-width: $medium-screen) {
+    border-left: none;
   }
 }
 
