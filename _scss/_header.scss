@@ -9,7 +9,7 @@ header {
   z-index: 100;
   transition: 0.15s ease-in-out;
 
-  img {
+  #logo {
     position: absolute;
     left: 30px;
     top: 50%;
@@ -17,7 +17,8 @@ header {
     height: 40px;
   }
 
-  ul {
+  ul#menu-items {
+    display: block;
     margin: 0px;
     padding: 0px;
     position: absolute;
@@ -51,6 +52,120 @@ header {
         background-color: rgba(255, 255, 255, 0.8);
         color: rgb(0, 71, 171)!important;
       }
+    }
+  }
+
+  #mobile-menu {
+    position: absolute;
+    right: 40px;
+    left: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: fit-content;
+    width: 10px;
+    display: none;
+    
+    #mobile-menu-button {
+      padding: 10px 20px;
+      border-radius: 20px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      &:active {
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+      
+      img {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 20px;
+        user-select: none;
+        &::selection {
+          background-color: none;
+        }
+      }
+    }
+
+    #mobile-menu-items {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      list-style-type: none;
+      background-color: white;
+      padding: 0px;
+      border-radius: 2px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+      li {
+        margin: 0px;
+
+        a {
+          display: block;
+          font-weight: 500;
+
+          &:hover {
+            background-color: rgb(240, 240, 240);
+          }
+
+          &:active {
+            background-color: rgb(220, 220, 220);
+          }
+        }
+      }
+    }
+
+    .menu-invisible {
+      border-bottom-left-radius: 100%!important;
+      overflow: hidden;
+      opacity: 0!important;
+      transition: all 0.1s;
+
+      li {
+        a {
+          padding: 0px!important;
+          height: 0;
+          width: 0;
+          color: white!important;
+          font-size: 0.5em!important;
+        }
+      }
+    }
+
+    .menu-visible {
+      border-radius: 2px;
+      overflow: hidden;
+      opacity: 1;
+      display: block;
+      transition: all 0.1s;
+
+      li {
+        a {
+          padding: 15px 25px!important;
+          color: #0047AB!important;
+          font-size: 1.2em!important;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 940px) {
+    height: 60px;
+
+    ul#menu-items {
+      display: none;
+    }
+
+    #mobile-menu {
+      display: block;
+    }
+
+    #logo {
+      height: 30px;
+      left: 20px;
     }
   }
 }

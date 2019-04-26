@@ -1,11 +1,22 @@
 <header>
-  <img src="/assets/img/tnk_logo_white.png" alt="Tech no Kami logo">
+  <img id="logo" src="/assets/img/tnk_logo_white.png" alt="Tech no Kami logo">
 
-  <ul>
+  <ul id="menu-items">
     <li><a id='home-link' href="/">Home</a></li>
     <li><a id='about-link' href="/about/">About</a></li>
     <li><a target="_blank" href="https://rossoskull.github.io">Portfolio</a></li>
   </ul>
+
+  <div id="mobile-menu">
+    <a onclick="showMenu();" id="mobile-menu-button">
+      <img src="/assets//img/vell.png">
+    </a>
+    <ul class="menu-invisible" id="mobile-menu-items">
+      <li><a id='home-link' href="/">Home</a></li>
+      <li><a id='about-link' href="/about/">About</a></li>
+      <li><a target="_blank" href="https://rossoskull.github.io">Portfolio</a></li>
+    </ul>
+  </div>
 
   <script type="text/javascript">
     window.onload = function() {
@@ -14,6 +25,12 @@
       } else if (window.location.pathname === '/') {
         document.getElementById('home-link').classList.add('active')
       }
+    }
+
+    let showMenu = function() {
+      let Menu = document.getElementById('mobile-menu-items');
+      Menu.classList.toggle('menu-invisible');
+      Menu.classList.toggle('menu-visible');
     }
   </script>
 </header>
