@@ -1,0 +1,21 @@
+---
+title: "Categories"
+permalink: "/categories/"
+layout: "page"
+---
+
+{% for category in site.categories %}
+  <h2 id="{{ category[0] }}">{{ category[0] }}</h2>
+  <ul class="no-style">
+    {% for post in category[1] %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<script type="text/javascript">
+  
+  window.onload = function() {
+    setTimeout(function () { window.scrollTo(0, window.pageYOffset - 90)}, 50);
+  }
+</script>

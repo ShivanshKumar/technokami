@@ -59,17 +59,7 @@ layout: default
           </p>
           <ul>
             {% for category in site.categories %}
-              <li>{{ category[0] }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div>
-          <p class="section-header">
-            Tags
-          </p>
-          <ul>
-            {% for tag in site.tags %}
-              <li>{{ tag }}</li>
+              <li><a href="/categories/#{{ category[0] }}">{{ category[0] }}</a></li>
             {% endfor %}
           </ul>
         </div>
