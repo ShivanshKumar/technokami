@@ -21,4 +21,10 @@ layout: default
 
 <div id="post-body">
   {{ content }}
+
+  <div id="post-comments">
+    {% if page.comments %}
+      {% include comments.html %}
+    {% endif %}
+  </div>
 </div>
