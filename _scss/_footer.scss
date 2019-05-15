@@ -64,7 +64,7 @@
 
   div {
     img {
-      width: 200px;
+      height: 32px;
       margin: 0px auto;
     }
   }
@@ -100,5 +100,11 @@
 
   #footer-site-nav, #footer-social-nav {
     width: 50%!important;
+  }
+}
+
+@media screen and (max-width: $small-screen) {
+  #footer-site-nav, #footer-social-nav {
+    width: 100%!important;
   }
 }
