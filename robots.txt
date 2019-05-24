@@ -1,1 +1,1 @@
-Sitemap: http://technokami.tk/sitemap
+Sitemap: http://technokami.tk/sitemap.xml
