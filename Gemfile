@@ -3,5 +3,6 @@ source 'https://rubygems.org' do
   gem 'jekyll'
   gem 'kramdown'
   gem 'rouge'
+  gem 'github-pages', group: :jekyll_plugins
 end
 

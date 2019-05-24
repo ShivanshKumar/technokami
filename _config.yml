@@ -5,3 +5,6 @@ sass:
 markdown: kramdown
 
 highlighter: rouge
+
+plugins:
+  - jekyll-sitemap
