@@ -5,6 +5,7 @@ date:   2019-02-09 20:10:00 +0530
 description: "Learn how to create a simple and cool text transition effect using Vanilla JS and CSS"
 categories: ['Web-Development', 'Tutorial']
 author: "Jay Mistry"
+keywords: "css, javascript, tech no kami, technokami, animation, text transition, vanilla js"
 comments: true
 ---
 

@@ -5,6 +5,7 @@ date:   2018-09-13 20:24:00 +0530
 description: "Ever wondered where I got my online alias 'RossoSkull'? Check out this post to know how!"
 categories: ['Misc']
 author: "Jay Mistry"
+keywords: "technokami, rossoskull, whatis, tech, no, kami"
 comments: true
 ---
 

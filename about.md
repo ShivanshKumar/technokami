@@ -2,6 +2,8 @@
 title: "About"
 permalink: "/about/"
 layout: "page"
+description: "About Tech no Kami"
+keywords: "technokami, tech, no, kami, about, blog, aboutblog, techno, nokami, god"
 ---
 
 # Why Tech no Kami?

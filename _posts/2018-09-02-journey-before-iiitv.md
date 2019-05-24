@@ -4,6 +4,7 @@ title:  "My Journey Before Joining IIITV"
 date:   2018-09-02 19:48:00 +0530
 categories: ['Misc']
 author: "Jay Mistry"
+keywords: "technokami, before, IIITV, IIITVadodara, Vadodara, tech, no, kami"
 comments: true
 ---
 

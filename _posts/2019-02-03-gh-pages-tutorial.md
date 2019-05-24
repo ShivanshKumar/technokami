@@ -5,6 +5,7 @@ date:   2019-02-03 17:10:00 +0530
 description: "A simple tutorial on setting up a static site with GitHub Pages, and also how to get a free domain name."
 categories: ['Web-Development', 'Tutorial']
 author: "Jay Mistry"
+keywords: "technokami, static, site, github, githubpages, tutorial, free, domain, name, tech, no, kami"
 comments: true
 ---
 

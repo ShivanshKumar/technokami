@@ -5,6 +5,7 @@ date:   2018-10-01 13:56:00 +0530
 description: "A post where I share what I feel about starting a new journey on learning something."
 categories: ['Misc']
 author: "Jay Mistry"
+keywords: "technokami, what, if, not, good, coding, tech, no, kami"
 comments: true
 ---
 

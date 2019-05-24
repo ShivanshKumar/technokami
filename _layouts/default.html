@@ -6,9 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{% if page.title %}{{ page.title }} &middot; {% endif %}Tech no Kami</title>
+  {% if page.title %}
+    <meta name="og:title" property="og:title" content="{{ page.title }}">
+  {% endif %}
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+  {% endif %}
+  {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}" />
+  {% endif %}
 </head>
 <body>
 

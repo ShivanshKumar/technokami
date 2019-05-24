@@ -5,6 +5,7 @@ date:   2018-09-03 00:43:00 +0530
 description: "In this post, I share my experiences regarding the coding culture in my institute and how it affected me."
 categories: ['Misc']
 author: "Jay Mistry"
+keywords: "technokami, after, IIITV, IIITVadodara, vadodara, tech, no, kami"
 comments: true
 ---
 

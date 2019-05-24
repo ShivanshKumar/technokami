@@ -5,6 +5,7 @@ date:   2018-08-31 11:35:00 +0530
 description: "My first ever blog post!"
 categories: ['Misc']
 author: "Jay Mistry"
+keywords: "technokami, first, blog, post, tech, no, kami"
 comments: true
 ---
 ## console.log("Hello World");
