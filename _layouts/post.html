@@ -4,7 +4,7 @@ layout: default
 
 <div id="post-header">
   <div id="post-header-textbox">
-    <p id="post-page-title">{{ page.title }}</p>
+    <h1 id="post-page-title">{{ page.title }}</h1>
     {% if page.author %}
       <p id="post-page-details">by {{ page.author }} &middot; {{ page.date | date: "%b %d, %Y" }}</p>
     {% endif%}
@@ -21,6 +21,22 @@ layout: default
 
 <div id="post-body">
   {{ content }}
+
+  <div id="next-prev-posts">
+    {% if page.previous %}
+      <a id="previous-post-url" class="next-prev-box" href="{{ page.previous.url }}">
+        <span class="np-link-desc">Previous post:</span>
+        {{ page.previous.title }}
+      </a>
+    {% endif %}
+
+    {% if page.next %}
+      <a id="next-post-url" class="next-prev-box" href="{{ page.next.url }}">
+        <span class="np-link-desc">Next post:</span>
+        {{ page.next.title }}
+      </a>
+    {% endif %}
+  </div>
 
   <div id="post-comments">
     {% if page.comments %}
