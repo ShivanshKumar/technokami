@@ -232,11 +232,16 @@
   .next-prev-box {
     display: inline-block;
     padding: 10px;
-    background-color: rgba(236,67,0, 0.1);
-    border-radius: 8px;
+    background: #0047AB;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
     max-width: 45%;
     box-sizing: border-box;
     height: max-content;
+  }
+
+  .next-prev-box:hover {
+    color: rgba(255, 255, 255, 1);
   }
 
   #previous-post-url {
