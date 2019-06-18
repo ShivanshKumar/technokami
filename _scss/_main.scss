@@ -31,3 +31,13 @@ a {
 ul.no-style {
   list-style-type: none;
 }
+
+::-moz-selection {
+  color: white;
+  background: #ec4300;
+}
+
+::selection {
+  color: white;
+  background: #ec4300;
+}
