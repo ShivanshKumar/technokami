@@ -145,6 +145,9 @@ The site will be hosted on `http://localhost:4000` on your system. Let's take a 
 
 <img class='post-image' src="/assets/images/jekyll/1/site-demo.gif" alt="How to create a Jekyll blog demo" />
 
+# Deployment
+You can learn how to setup your site on GitHub Pages [here](/setup-github-pages-site-with-free-domain){:target="_blank"}. The process is the same, and the explaination is in detail, so you wouldn't face any problems in deploying your site.
+
 We will take a look at the real power of Jekyll in the next tutorial - **posts**. Till then, you can learn more about Jekyll from their [official docs](https://jekyllrb.com/){:target="_blank"}.
 
 That's it for this tutorial, we will meet in the next one!
