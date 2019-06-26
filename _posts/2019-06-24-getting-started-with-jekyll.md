@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting started with Jekyll - installation, project setup & deployment"
-date:   2019-06-18 19:12:00 +0530
+date:   2019-06-24 21:00:00 +0530
 description: "Setup your PC to develop your blog in Jekyll & setup GitHub Pages to host it for free!"
 categories: ['Build your blog with Jekyll']
 author: "Jay Mistry"
@@ -44,6 +44,12 @@ You can check if it is installed by executing the following commands-
 Now, we are good to go! If you are still facing problems in installation, you can visit [Official Docs](https://jekyllrb.com/docs/installation/){:target="_blank"} and view detailed installation steps as per your operating system.
 
 # Setting up our project
+Throughout this series, we will create a site which displays the data of our favourite anime characters! Let's name the site 'OtakuBook' ( it's quite original 😉️).
+```sh
+  $ mkdir OtakuBook
+  $ cd OtakuBook/
+```
+
 Jekyll requires a `_config.yml` file and a `_layouts` folder to build a site. The configuration file `_config.yml` can be empty. We will keep our site layouts in the `_layouts` folder. We will also create a `base.html` layout which will serve as a parent layout for all the pages.
 
 ```sh
@@ -67,13 +73,13 @@ Let's start creating our basic layout of the site. We will have a navigation bar
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
-    <title>Jekyll Blog</title>
+    <title>OtakuBook</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container">
-        <a class="navbar-brand" href="#">Jekyll Blog</a>
+        <a class="navbar-brand" href="#">OtakuBook</a>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
@@ -104,8 +110,8 @@ layout: base
 ---
 {% endraw %}
 
-<h1>Home page</h1>
-<p>This is the home page of our website.</p>
+<h1>Home</h1>
+<h3>Welcome to the greatest Anime Characters Databook</h3>
 
 <p>Dummy content...</p>
 
@@ -125,13 +131,9 @@ permalink: "/about/"
 ---
 {% endraw %}
 
-# About Page
+# About OtakuBook
 
-This is the about page.  
-
-Dummy content...
-
-Dummy content...  
+We love watching anime, so we bring to you the **World's Greatest** Anime characters Databook!
 ```
 This file is in the Markdown format. As you can clearly see, for text-rich pages, Markdown offers a very clean syntax. You can learn more about Markdown [here](https://www.markdownguide.org/). I would recommend you to invest your time in learning Markdown syntax.
 
