@@ -9,6 +9,4 @@ highlighter: rouge
 plugins:
   - jekyll-sitemap
 
-url: "https://rossoskull.github.io/technokami"
-
 permalink: /:title
