@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Simple Approach to Understanding \'this\' in JavaScript"
-date:   2020-03-26 14:37:00 +0530
+date:   2020-03-26 18:55:00 +0530
 description: "A post explaining the concept of \'this\' in JavaScript and explaining the related functions"
 categories: ['JavaScript']
 author: "Shivansh Kumar"
@@ -9,13 +9,8 @@ keywords: "technokami, JavaScript, coding, JavaScript 'this', programming, Objec
 comments: true
 ---
 
-# A Simple Approach to Understanding 'this' in JavaScript
-###### March 21, 2020
-##### -By Shivansh Kumar 
 The concept of 'this' can be hard to get your head around especially if it's your first time learning it,
 and let's be honest we all have been through the phase where we have dedicated hours just digging through this concept, here I try to provide a simple approach to understanding 'this' in JavaScript and clearing up the confusions related to it.
-
-![Heading Image](https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
 
 ## So what is 'this'?
 
